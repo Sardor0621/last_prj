@@ -302,7 +302,7 @@ function Layoutt (props) {
 
               </div>
               <div className="col-md-4"></div>
-              <div className="col-md-7">
+              <div className="col-md-7 d-flex ">
                 <div className="col-md-5">
                   <img src={Back3} alt="" />
                   <p className='my-4'>
