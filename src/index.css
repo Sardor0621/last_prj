@@ -1,13 +1,92 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.backs{
+    
+
+    background-image: url(./assets/21.09\ 1.png);
+    background-size: 100% 100%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.nord{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 130px;
+}
+.sel{
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+.shirokiy{
+    width: 100%;
+    height: 665px;
+    color: white;
+    background-image: url(./assets/17-12-2019-nordic-046\ 1.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+ .imgg2{
+    width: 650px;
+    height: 436px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+.rub{
+    width: 35%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+/* .pivo{
+} */
+.darks{
+    color: black    ;
+}
+.img5{
+    width: 100%;
+    height: 650px;
+}
+
+
+
+
+
+
+
+
+@media (min-width:0px) and (max-width: 430px) {
+    .container-fluid{
+        width: 100%;
+    }
+    .row{
+        width: 100%;
+    }
+    .clls2{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+    }
+    .clls{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .sonlar_asosiy{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    
+        
+        
+    }
+    .sonlar_asosiy div{
+        
+        width: 43%;
+        margin: 0;
+        
+
+    }
+    .p_tag{
+        width: 100%;
+    }
+    
 }

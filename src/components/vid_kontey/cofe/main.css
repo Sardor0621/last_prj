@@ -1,0 +1,14 @@
+.sayt{
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+.card1{
+    width: 580px;
+}
+.fpp{
+    background-color: #545E761F;
+    border-radius: 15px;
+    padding: 5px;
+    margin: 10px 0;
+}

@@ -1,0 +1,50 @@
+.son{
+    border: 1px solid gray;
+    opacity: 50%;
+    color: black;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center ;
+    border-radius: 50%;
+
+}
+.col{
+    display: flex;
+    gap: 100px;
+    align-items: center;
+}
+.line{
+    background-color: #545E76;
+    height: 1px;
+    opacity: 50%;
+    width: 83%;
+    margin: 50px auto;
+}
+@media (min-width:0px) and (max-width:450px) {
+    .llop{
+        width: 100%;
+    }
+    .ffclan{
+        width: 82%;
+        
+        
+
+    }
+    .fff{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .col{
+        gap: 10px;
+    }
+    .w-75{
+        margin: 10px auto;
+        width: 100%;
+
+    }
+    
+}

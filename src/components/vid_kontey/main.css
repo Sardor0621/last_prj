@@ -1,0 +1,15 @@
+.carousel-item{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    
+}
+.dls{
+    width: 550px;
+    height: 366px;
+}
+.dbs{
+    height: 450px;
+    width: 450px;
+    
+}
