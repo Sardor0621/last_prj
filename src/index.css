@@ -42,6 +42,11 @@
     width: 100%;
     height: 650px;
 }
+.myx{
+    background-color:  lightgray;
+    border-radius: 50%;
+    padding: 15px;
+}
 
 
 

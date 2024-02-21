@@ -9,6 +9,10 @@ import Img2 from ".././assets/06-08-18-nordic-058 1.png"
 import Img3 from ".././assets/image 106.png"
 import Img4 from ".././assets/Vector (4).png"
 import Img5 from ".././assets/image 109.png"
+import Back from ".././assets/groups_FILL1_wght700_GRAD200_opsz48 1.png"
+import Back2 from ".././assets/menu_book_FILL1_wght700_GRAD200_opsz48 1.png"
+import Back3 from ".././assets/checklist_FILL1_wght700_GRAD200_opsz48 1.png"
+import Back4 from ".././assets/Frame.png"
 
 import { MenuFoldOutlined,
     MenuUnfoldOutlined,
@@ -280,6 +284,37 @@ function Layoutt (props) {
               </div>
               <div className="col-md-7">
                 <h2>Мы считаем, что каждое событие особенное и заслуживает стильного празднования.</h2>
+              </div>
+              <div className="col-md-4"></div>
+              <div className="col-md-7 d-flex">
+                <div className="col-md-5">
+                  <img className='myx' src={Back} alt="" />
+                  <p className='my-4'>
+                  Nordic имеет команду опытных профессионалов в сфере общественного питания, которые занимаются поставкой высококачественной еды и исключительного обслуживания.
+                  </p>
+                </div>
+                <div className="col-md-5">
+                  <img className='myx' src={Back2} alt="" />
+                  <p className='my-4'>
+                  Nordic предлагает множество вариантов меню, которые можно настроить в соответствии с вашими конкретными потребностями и предпочтениями.
+                  </p>
+                </div>
+
+              </div>
+              <div className="col-md-4"></div>
+              <div className="col-md-7">
+                <div className="col-md-5">
+                  <img src={Back3} alt="" />
+                  <p className='my-4'>
+                  Nordic помогает снять стресс при планировании мероприятий, предлагая комплексное решение для всех ваших потребностей в сфере кейтеринга, включая планирование мероприятий и выбор места проведения.
+                  </p>
+                </div>
+                <div className="col-md-5">
+                  <img src={Back4} alt="" />
+                  <p className='my-4'>
+                  Nordic использует только самые свежие ингредиенты и готовит всю еду на месте, чтобы обеспечить максимальный вкус и качество.
+                  </p>
+                </div>
               </div>
                 </div>
               </div>
