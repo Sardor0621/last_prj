@@ -4,11 +4,42 @@
     align-items: center;
 }
 .card1{
-    width: 580px;
+    width: 480px;
+}
+.card1 img{
+    width: 94%  ;
 }
 .fpp{
     background-color: #545E761F;
     border-radius: 15px;
     padding: 5px;
+
     margin: 10px 0;
+}
+.tpp{
+    width: 520px;
+    height: 350px;
+}
+.cards{
+    gap: 20px;
+}
+@media (min-width:0px) and (max-width:430px) {
+    .sls{
+        width: 100%;
+    }
+    .dark-btn{
+        margin: 0 25px;
+    }
+    .cofe-img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 15px;
+        margin: 0 10px;
+
+    }
+    .cofe{
+        width: 100%;
+    }
+    
 }

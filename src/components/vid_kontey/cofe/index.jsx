@@ -7,12 +7,14 @@ import Img5 from "../../../assets/image 90.png"
 import "./main.css"
 import Img6 from "../../../assets/image 103 (1).png"
 import Img7 from "../../../assets/image 100.png"
-import Img8 from "../../../assets/image 103 (2).png"
+import Img8 from "../../../assets/photo_2024-02-22_23-06-07.jpg"
+import Test_bot from "../../test_bot"
+
 
 
 export default function Index() {
   return (
-    <div className='container-fluid'>
+    <div className='container-fluid sls'>
         <div className="row">
             <div className="col-md-4 offset-1">
                 <span>Меню кейтеринга</span>
@@ -28,13 +30,13 @@ export default function Index() {
             </div>
             <div className="col-md-6"></div>
             <div className="col-md-5 float-start my-3">
-                <button className='btn btn-dark'>Посмотреть готовое меню</button>
+                <button className='btn dark-btn btn-dark'>Посмотреть готовое меню</button>
             </div>
         </div>
-        <div className="row">
-            <div className="col-md-12">
+        <div className="row cofe">
+            <div className="col-md-12 cofe-img">
 
-            <img className='w-100' src={Img1} alt="" />
+            <img  className='w-100 cofe-img' src={Img1} alt="" />
             </div>
             <div className="col-md-3 my-5 offset-1">
                 <span>Клиенты</span>
@@ -66,38 +68,29 @@ export default function Index() {
 
         </div>
         <div className="row">
-        <div id="carouselExampleFade" class="carousel slide carousel-fade">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <div className="cards">
-        <div className="card1 w-25">
+        <div className="cards d-flex">
+        <div className="card1">
             <img className='my-3' src={Img6} alt="" />
             <span className='fpp'>Июль 2021 г.</span>
             <h5 className='w-100 my-3'>Юбилей в стиле маленькой Италии</h5>
             <span className='my-3'>Банкет на 40 человек</span>
         </div>
-      </div>
-    </div>
-    <div class="carousel-item">
-   
-        <img src={Img8} alt="" />
-    
-      
-    </div>
-    <div class="carousel-item">
-      <img src="..." class="d-block w-100" alt="..."/>
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
+        <div className="card2">
+          <img className='my-3' src={Img7} alt="" />
+          
+          <span className='fpp   '>Февраль 2022</span>
+          <h5 className='w-100 my-3'>Юбилей Салона Ирины Андерсона</h5>
+          <span className='my-3'>Фуршет на 30 человек</span>
         </div>
+        <div className="card3">
+            <img className='tpp my-3 ' src={Img8} alt="" />
+            <span className='fpp my-3'>Январь 2022 г.</span>
+            <h5 className='w-100 my-3'>Юбилей в стиле Марии Антуанетты</h5>
+            <span className='my-3'>Гастрономический ужин / Candy Bar</span>
+        </div>
+      </div>
+        </div>
+        <Test_bot/>
         
 
     </div>

@@ -4,7 +4,7 @@ import { Outlet, Link } from "react-router-dom";
 import { DownOutlined } from '@ant-design/icons';
 import { Dropdown, Space } from 'antd';
 import Img1 from ".././assets/17-12-2019-nordic-046 1.png"
-
+import Navbar from "../components/navbar"
 import Img2 from ".././assets/06-08-18-nordic-058 1.png"
 import Img3 from ".././assets/image 106.png"
 import Img4 from ".././assets/Vector (4).png"
@@ -77,19 +77,13 @@ function Layoutt (props) {
         
         <div className='container-fluid'>
          
-            <div className='backs'>
-                <div className='nord'>
-                    <span>Лучший кейтеринг в Санкт-Петербурге</span>
-                    <div className='numbers d-flex gap-4'>
-                        <span>+7 921 123 45 67  </span>
-                        <span>contact@nordic-c.ru</span>
-                    </div>
-
-                </div>
+      <div className='backs'>
+        <Navbar/>
+               
                 <nav>
                     <img src={Nordic} alt="" />
                     
-                    {/* <div className='selects'>
+                     {/* <div className='selects'>
 
                     <select className='sel'>
                         <option>Вид кейтеринга</option>
@@ -106,18 +100,18 @@ function Layoutt (props) {
                     <select className='sel'>
                         <option>О компании </option>
                     </select>
-                    </div> */}
+                    </div>  */}
                     
                   
     
 
                    
-                    <select>
+                    
                       {/* <option value="/uslugi" to="/uslugi" key={'/uslugi'}>kfk</option> */}
                       {/* <NavLink to="/uslugi">Portfolio2</NavLink> */}
 
                       {/* <option> jf</option> */}
-                    {/* <option>
+                    {/* <>
 
                     {/* <NavLink to="/keytering">Portfolio2</NavLink> */}
 
@@ -125,8 +119,8 @@ function Layoutt (props) {
                     
 
 
-                    {/* </option>     */}
-                    </select>
+               
+                  
                     <div>
      
     
@@ -157,7 +151,7 @@ function Layoutt (props) {
                   </option>
                 </select>
          
-            </div>
+            </div> 
             <div className="row clls">
               <div className="col-md-3 offset-1">
                 <span>О нас</span>

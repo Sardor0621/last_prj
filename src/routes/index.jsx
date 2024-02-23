@@ -6,6 +6,7 @@ import Uslugi from "../components/uslugi"
 import Layouts from '../Layout';
 import { BrowserRouter, Link } from 'react-router-dom';
 import Cofe from "../components/vid_kontey/cofe"
+import Ploshadki from "../components/ploshadki"
 
 
 
@@ -18,6 +19,8 @@ export default function Index() {
      <Route path='/keytering' element={<Vid_kontey/>}/>
      <Route path='/uslugi' element={<Uslugi/>}/>
      <Route path='/cofe' element={<Cofe/>}/>
+     <Route path='/svadbu' element={<Ploshadki/>}/>
+     
      
      
      
