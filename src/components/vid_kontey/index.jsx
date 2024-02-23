@@ -45,7 +45,7 @@ export default function Index() {
     <div className="row my-4">
       <div className="col-md-4 offset-1">
         <span>Что включено</span>
-        <h1>В фуршет включено  все необходимое для праздника</h1>
+        <h1>В фуршет включено все необходимое для праздника</h1>
       </div>
       <div className="col-md-5 offset-1 my-4  ">
         <span>

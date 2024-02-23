@@ -41,5 +41,38 @@
     .cofe{
         width: 100%;
     }
+    .nash-klient{
+        text-align: center;
+    }
+    .sayt{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin: 40px 0;
+        justify-content: center;
+    }
+    .sayt div{
+        margin: 0;
+        padding: 0;
+    }
+    .sayt div img{
+        width: 80%;
+        margin: 0;
+
+    }
+    .cards{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        
+    }
+    .card1, .card2, .card3{
+        width: 100%;
+        
+    }
+    .wrasm{
+        width: 100%;
+    }
     
 }

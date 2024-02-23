@@ -42,7 +42,7 @@ export default function Index() {
                 <span>Клиенты</span>
 
             </div>
-            <div className="col-md-8 my-5">
+            <div className="col-md-8 nash-klient my-5">
                 <h2 className='w-100'>Наши клиенты - это большие и маленькие компании, частные мероприятия дома и крупные для селебрити.</h2>
                 <div className="col-md-8 w-100 sayt ">
 
@@ -70,20 +70,20 @@ export default function Index() {
         <div className="row">
         <div className="cards d-flex">
         <div className="card1">
-            <img className='my-3' src={Img6} alt="" />
+            <img className='my-3 wrasm' src={Img6} alt="" />
             <span className='fpp'>Июль 2021 г.</span>
             <h5 className='w-100 my-3'>Юбилей в стиле маленькой Италии</h5>
             <span className='my-3'>Банкет на 40 человек</span>
         </div>
         <div className="card2">
-          <img className='my-3' src={Img7} alt="" />
+          <img className='my-3 wrasm' src={Img7} alt="" />
           
           <span className='fpp   '>Февраль 2022</span>
           <h5 className='w-100 my-3'>Юбилей Салона Ирины Андерсона</h5>
           <span className='my-3'>Фуршет на 30 человек</span>
         </div>
         <div className="card3">
-            <img className='tpp my-3 ' src={Img8} alt="" />
+            <img className='tpp wrasm my-3 ' src={Img8} alt="" />
             <span className='fpp my-3'>Январь 2022 г.</span>
             <h5 className='w-100 my-3'>Юбилей в стиле Марии Антуанетты</h5>
             <span className='my-3'>Гастрономический ужин / Candy Bar</span>
